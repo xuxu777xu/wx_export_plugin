@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Label</key>
+	<string>com.xuxu.wxtoob.process</string>
+	<key>ProgramArguments</key>
+	<array>
+		<string>/bin/zsh</string>
+		<string>__HOME__/Applications/WxToOb.app/Contents/Resources/process.sh</string>
+	</array>
+	<key>QueueDirectories</key>
+	<array>
+		<string>__HOME__/Library/Application Support/WxToOb/queue</string>
+	</array>
+	<key>StandardErrorPath</key>
+	<string>__HOME__/Library/Application Support/WxToOb/launchd.err.log</string>
+</dict>
+</plist>
