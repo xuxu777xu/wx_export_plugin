@@ -99,3 +99,5 @@ rm -rf ~/Library/Application\ Support/WxToOb      # 日志和 zip 留底，按�
 - 第一次安装、或改了图标之后，要重启微信才能看到变化。
 
 版本号见 `VERSION`：修 bug 升补丁位，加功能升次版本。
+
+许可证：MIT，见 `LICENSE`。
