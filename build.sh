@@ -15,7 +15,8 @@ app="$build/WxToOb.app"
 appex="$app/Contents/PlugIns/WxShare.appex"
 rm -rf "$app"
 mkdir -p "$app/Contents/MacOS" "$app/Contents/Resources" "$appex/Contents/MacOS"
-cp "$root/Resources/AppIcon.icns" "$root/Resources/process.sh" "$app/Contents/Resources/"
+cp "$root/Resources/AppIcon.icns" "$root/Resources/process.sh" "$root/Sources/Converter/wx2ob.py" \
+  "$app/Contents/Resources/"
 
 echo "→ 编译宿主 App"
 swiftc -O -target arm64-apple-macos14.0 \
